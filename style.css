@@ -1,18 +1,18 @@
 body{
-	background-color:lightblue;
-	color:white;font-size:20px;
-	text-align:center;
+		background-color:lightblue;
+		color:white;font-size:20px;
+		text-align:center;
 }
 
 nav{
-	margin-bottom:30px;
+		margin-bottom:30px;
 }
 
 div{
-	background-color:white;
-	color:blue;
-	margin:30px;
-	padding:25px;
-	border-radius:30px;
-	text-align:center;
+		background-color:white;
+		color:blue;
+		margin:30px;
+		padding:25px;
+		border-radius:30px;
+		text-align:center;
 }
