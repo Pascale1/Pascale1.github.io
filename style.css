@@ -16,3 +16,10 @@ div{
 		border-radius:30px;
 		text-align:center;
 }
+#list{
+	list-style-position:inside;
+}
+
+.grayBullet{
+	color:black;
+}
