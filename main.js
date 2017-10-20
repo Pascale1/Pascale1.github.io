@@ -8,6 +8,10 @@ var list = ["We shall see!",
 			"Signs point to no.",
 			"Signs point to yes!"];
 
+function randomNumber() {
+	return Math.random() * 10;
+}
+
 function testJs(){
 	alert("test!");
 }
@@ -19,6 +23,6 @@ function shake8Ball() {
 
 	document.getElementById("results").innerHTML=list[2];
 
-	//alert(list[2]);
+	alert(randomNumber());
 }
 
