@@ -23,6 +23,6 @@ function shake8Ball() {
 
 	document.getElementById("results").innerHTML=list[randomNumber()];
 
-	alert(randomNumber());
+	//alert(randomNumber());
 }
 
