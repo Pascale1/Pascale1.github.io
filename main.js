@@ -33,7 +33,6 @@ function shake8Ball() {
 
 //handles X and O turns
 function turn(location){
-	alert("test");
 	document.getElementById(location).innerHTML = "X";
 }
 
