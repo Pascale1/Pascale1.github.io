@@ -1,38 +1,45 @@
-var list = ["We shall see!",
-			"Yes!",
-			"No!",
-			"Maybe.",
-			"Certainly.",
-			"Ask again later.",
-			"Doubtful.",
-			"Signs point to no.",
-			"Signs point to yes!"];
-
-function randomNumber() {
-	return Math.floor(Math.random() * 10);
-}
-
 function testJs(){
 	alert("test!");
 }
 
 function shake8Ball() {
-	document.getElementById("8ball").src="magic8ball2.jpg";
-	//alert("We shall see!");
-
-
-	document.getElementById("results").innerHTML=list[randomNumber()];
-
-	//alert(randomNumber());
+	document.getElementById("magic8ball").src="magic8ball2.jpg";
+	alert("We shall see!");
 }
-
+ 
 /*
-	Below is code for Tic Tac Toe
+	Below the code is for tic tac toe
 
 */
 
-//handles X and O turns
+//hold XD or O
+var character = "O";
+
+//handeles X and O turns
 function turn(location){
-	document.getElementById(location).innerHTML = "X";
+
+	//switch between X and O
+	if(character == "X"){
+		character = "O";
+	}
+	else{
+		character = "X"
+	}
+	
+		document.getElementById(location).innerHTML = character;
 }
 
+//class X's and O'ss
+function clearAll(){
+	document.getElementById("r1r1").innerHTML = "";
+	document.getElementById("r1r2").innerHTML = "";
+	document.getElementById("r1r3").innerHTML = "";
+	document.getElementById("r2r1").innerHTML = "";
+	document.getElementById("r2r2").innerHTML = "";
+	document.getElementById("r2r3").innerHTML = "";
+	document.getElementById("r3r1").innerHTML = "";
+	document.getElementById("r3r2").innerHTML = "";
+	document.getElementById("r3r3").innerHTML = "";
+
+
+}
