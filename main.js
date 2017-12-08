@@ -12,7 +12,7 @@ function shake8Ball() {
 
 */
 
-//hold XD or O
+//hold X or O
 var character = "O";
 
 //handeles X and O turns
@@ -29,17 +29,18 @@ function turn(location){
 		document.getElementById(location).innerHTML = character;
 }
 
-//class X's and O'ss
+//class X's and O's
 function clearAll(){
-	document.getElementById("r1r1").innerHTML = "";
-	document.getElementById("r1r2").innerHTML = "";
-	document.getElementById("r1r3").innerHTML = "";
-	document.getElementById("r2r1").innerHTML = "";
-	document.getElementById("r2r2").innerHTML = "";
-	document.getElementById("r2r3").innerHTML = "";
-	document.getElementById("r3r1").innerHTML = "";
-	document.getElementById("r3r2").innerHTML = "";
-	document.getElementById("r3r3").innerHTML = "";
+
+	document.getElementById("r1c1").innerHTML = "";
+	document.getElementById("r1c2").innerHTML = "";
+	document.getElementById("r1c3").innerHTML = "";
+	document.getElementById("r2c1").innerHTML = "";
+	document.getElementById("r2c2").innerHTML = "";
+	document.getElementById("r2c3").innerHTML = "";
+	document.getElementById("r3c1").innerHTML = "";
+	document.getElementById("r3c2").innerHTML = "";
+	document.getElementById("r3c3").innerHTML = "";
 
 
 }
