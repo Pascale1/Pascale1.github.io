@@ -3,7 +3,7 @@ function testJs(){
 }
 
 function shake8Ball() {
-	document.getElementById("magic8ball").src="magic8ball2.jpg";
+	document.getElementById("8ball").src="magic8ball2.jpg";
 	alert("We shall see!");
 }
  
