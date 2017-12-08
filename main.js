@@ -17,18 +17,20 @@ var character = "O";
 
 //handeles X and O turns
 function turn(location){
-
-	//switch between X and O
-	if(character == "X"){
-		character = "O";
-	}
-	else{
-		character = "X"
-	}
-	
+	//if no X or O, then draw
+	if(document.getElementById(location).innerHTML == "") {
+		//switch between X and O
+		if(character == "X"){
+			character = "O";
+		}
+		else{
+			character = "X"
+		}
+		
 		document.getElementById(location).innerHTML = character;
-}
+	}
 
+}
 //class X's and O's
 function clearAll(){
 
