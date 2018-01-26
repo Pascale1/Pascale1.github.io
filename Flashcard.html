@@ -2,6 +2,7 @@
 	<head>
 		<title>Flash Card</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="flashcards.js"></script>
 	</head>
 	<div id="container">
 			<nav>
@@ -19,18 +20,18 @@
 			</nav>
 			Flash Card
 			<br>
-			<input type="text" id="operand1">
+			<input type="text" id="operand1" />
 			<br>
 			+
 			<br>
-			<input type="text" id="operand2">
+			<input type="text" id="operand2" />
 			<br>
 			-------------------
 			<br>
-			<input type="text" id="operand3">
+			<input type="text" id="answer" />
 			<br>
 			<br>
-			<input type="button" id="operand4">
+			<input type="button" onclick="addNumbers();" id="checkanswer" value="Check Answer" />
 		</div>
 	</body>
 </html>
