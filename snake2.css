@@ -11,13 +11,11 @@ a:visited{
 		background-color:lightblue;
 		background-color:white;
 }
-a:hover{
-		background-color:yellow;
-		background-color:black;
-}
+
 #container{
 		background-color:white;
-		color:lightblue;
+		color:blue;
+		font-size:20px;
 		margin:30px;
 		padding:25px;
 		border-radius:40px;
