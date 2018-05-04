@@ -35,7 +35,7 @@ function init(){
 } 
 
 function resetGame(){
-    location.reload();
+    location .reload();
 }
  
 /** 
